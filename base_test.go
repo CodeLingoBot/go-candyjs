@@ -9,7 +9,7 @@ import (
 	. "gopkg.in/check.v1"
 )
 
-// Hook up gocheck into the "go test" runner.
+// Test hooks up gocheck into the "go test" runner.
 func Test(t *testing.T) { TestingT(t) }
 
 type CandySuite struct {
